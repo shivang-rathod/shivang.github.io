@@ -32,10 +32,10 @@ function GoogleSearch({ Component, pageProps }: AppProps) {
   return (
     <Compose components={[ThemeContextProvider]}>
       <Head>
-        <title>Richard Hong - Google Search</title>
+        <title>Shivang Rathod - Digital Marketer & SEO</title>
         <meta
           name="description"
-          content="Personal website of Richard Hong in the style of a google search"
+          content="Shivang Rathod is a Digital Marketing Team Leader at leading Ecommerce Development Company, also an independent SEO-focused content writer and a digital marketing consultant in his free time."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>

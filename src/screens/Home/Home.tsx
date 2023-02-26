@@ -31,8 +31,8 @@ export const Home: NextPage = () => {
             />
           </div>
           <div className={styles.name}>
-            <h2>Richard Hong {about}</h2>
-            <p>Canadian Software Engineer {about}</p>
+            <h2>Shivang Rathod {about}</h2>
+            <p>Digital Marketer & SEO {about}</p>
           </div>
         </div>
         <div className={styles.divider} />

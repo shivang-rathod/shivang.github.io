@@ -18,40 +18,22 @@ export const About: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.about}>
         <h4>About</h4>
-        <div className={styles.website}>{globe} h-richard.com</div>
+        <div className={styles.website}>{globe} shivangrathod.com</div>
         <p className={styles.description}>
-          Richard Hong a Chinese-Canadian software engineer, computer scientist
-          and cook. He is currently located in San Francisco, CA and works as a
-          Software Engineer at Meta. He occasionally posts educational software
-          engineering videos on his YouTube channel. In the future, Richard
-          hopes to own and drive the all new{' '}
-          <b>2023 Ford F150&reg; Lightning&trade; Pro</b>.
+        Shivang Rathod is a Digital Marketing Team Leader at leading Ecommerce Development Company, also an independent SEO-focused content writer and a digital marketing consultant in his free time. With his content writing and marketing strategies, Shivang helps businesses to achieve 10x growth in traffic and 2x growth in conversions YoY. He has years of combined experience in creating results-driven content and data-driven content marketing and SEO strategies. He used consults and work with different generous businesses to help or streamline their campaigns and writings.
         </p>
         <div className={styles.stat}>
-          <span>Born: </span>February, 2000 (age{' '}
-          {new Date(Date.now() - new Date(2000, 0o2).getTime()).getFullYear() -
-            1970}{' '}
-          years),{' '}
-          <a
-            href="https://en.wikipedia.org/wiki/Shenyang"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Shenyang, Liaoning
-          </a>
+          <span>Currenty City: </span> Bangalore, India
         </div>
         <div className={styles.stat}>
-          <span>Height: </span>1.73 m (5 feet 8 and 7/64 inches)*
+          <span>Current Company: </span> Moda (Part of LifeSight)
         </div>
         <div className={styles.stat}>
-          <span>Education: </span>
-          <a href="https://www.utoronto.ca/" target="_blank" rel="noreferrer">
-            University of Toronto
-          </a>{' '}
+          <span>Started in: </span>2017
+        </div>
+        <div className={styles.stat}>
+          <span>Education: </span> MSCIT, BCA
           (2022)
-        </div>
-        <div className={styles.stat}>
-          <span>Net Worth: </span>$72.9 USD (June, 2021)
         </div>
 
         <div className={styles.border} />

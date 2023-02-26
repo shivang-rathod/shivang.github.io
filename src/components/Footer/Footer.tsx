@@ -10,10 +10,8 @@ export const Footer: React.FC = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Source Code
+          Github
         </a>
-        <br /> I am not affiliated with Google, in any way at all. This project
-        was made for fun, please don&apos;t sue me.
       </div>
     </div>
   )

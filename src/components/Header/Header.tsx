@@ -50,7 +50,7 @@ const routes = [
     activeIcon: financeActive,
   },
   {
-    label: 'Projects',
+    label: 'About',
     route: '/projects',
     icon: book,
     activeIcon: bookActive,
