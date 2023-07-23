@@ -18,7 +18,6 @@ export const About: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.about}>
         <h4>About</h4>
-        <div className={styles.website}>{globe} h-richard.com</div>
         <p className={styles.description}>
           Richard Hong is a Chinese-Canadian software engineer, computer scientist
           and cook. He is currently located in <b>San Francisco, CA</b> and works as a
