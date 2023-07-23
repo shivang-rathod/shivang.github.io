@@ -19,18 +19,14 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'Augmentr | Engineering Lead',
+    title: 'Moda - AI Powered eCommerce Growth Platform',
     description: (
-      <>
-        Working with NestJS, Prisma, Postgres, AWS S3, CDK, EKS, Kubernetes,
-        GraphQL, and TypeScript.
-      </>
+      <>Grow omni-channel marketing revenue with Moda. Your all in one, easy-to-use platform for email, SMS, forms & automations.</>
     ),
-    extras: <b>Infra, Backend, DevOps</b>,
     link: 'https://www.augmentr.io/',
     image: (
       <Image
-        src="https://avatars.githubusercontent.com/u/107826199?s=200&v=4"
+        src="https://assets-global.website-files.com/62dd011c32dfae525fddef50/62dd466af9ac895333e1f2b9_Frame%20677352.svg"
         alt="augmentr logo"
         layout="fill"
         objectFit="contain"
