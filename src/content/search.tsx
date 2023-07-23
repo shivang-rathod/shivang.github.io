@@ -6,19 +6,6 @@ type Content = ComponentProps<typeof SearchResult>
 
 export const searchResults: Content[] = [
   {
-    title: 'Meta | Software Engineer',
-    description: <>Haven&apos;t done much yet, but it&apos;s honest work.</>,
-    link: 'https://engineering.fb.com/',
-    image: (
-      <Image
-        src="https://avatars.githubusercontent.com/u/69631?s=200&v=4"
-        alt="meta logo"
-        priority
-        fill
-      />
-    ),
-  },
-  {
     title: 'Moda - AI Powered eCommerce Growth Platform',
     description: (
       <>Grow omni-channel marketing revenue with Moda. Your all in one, easy-to-use platform for email, SMS, forms & automations.</>
@@ -56,9 +43,9 @@ export const searchResults: Content[] = [
       <>Need a team to bring your idea to life? No worries. MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. We craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
     ),
     extras: (
-      <>
-        <b>Machine Learning, Frontend</b>
-      </>
+      <><b>Industry Type:</b> Agency</>
+      <><b>Serves to:</b> SMBs & Enterprise Solutions</>
+      <><b>CMS/Franework :</b> Magento</>
     ),
     link: 'https://mconnectsolutions.com/',
     image: (
