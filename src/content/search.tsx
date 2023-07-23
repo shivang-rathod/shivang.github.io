@@ -38,9 +38,9 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'Mconnect Solutions - IT Outsourcing - Web &amp; Mobile App Development Company',
+    title: 'Mconnect Solutions - IT Outsourcing - Web & Mobile Development Company',
     description: (
-      <>Need a team to bring your idea to life? No worries. MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. We craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
+      <>MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. They craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
     ),
     extras: (
       <><b>Industry Type:</b> Agency</>
