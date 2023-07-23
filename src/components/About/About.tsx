@@ -26,7 +26,7 @@ export const About: React.FC = () => {
           <span>Current Ciy: </span>Bangalore, India
         </div>
         <div className={styles.stat}>
-          <span>Organizations founded: </span>1.73 m (5 feet 8 and 7/64 inches)*
+          <span>Organizations founded: </span>WhyUnrank.com
         </div>
 		<div className={styles.stat}>
           <span>Nationality: </span>Indian

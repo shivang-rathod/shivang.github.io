@@ -23,11 +23,11 @@ export const searchResults: Content[] = [
     description: (
       <>Grow omni-channel marketing revenue with Moda. Your all in one, easy-to-use platform for email, SMS, forms & automations.</>
     ),
-    link: 'https://www.augmentr.io/',
+    link: 'https://www.getmoda.io/',
     image: (
       <Image
-        src="https://assets-global.website-files.com/62dd011c32dfae525fddef50/62dd466af9ac895333e1f2b9_Frame%20677352.svg"
-        alt="augmentr logo"
+        src="https://media.licdn.com/dms/image/C560BAQEIf0FU03HV3w/company-logo_200_200/0/1649664211594?e=1698278400&v=beta&t=qRmsOKhaSv-2inhwPhI-trsu2koXFqTNgsYelDSTR0w"
+        alt="moda logo"
         layout="fill"
         objectFit="contain"
         priority
@@ -35,24 +35,15 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'Coinbase | Software Engineer',
+    title: 'LearnVern - Free Online Courses & Job Oriented Trainings',
     description: (
-      <>
-        Worked with React Native, TypeScript, Go, gRPC, and GraphQL. Was laid
-        off after the company discovered that he stole 3 cans LaCroix&trade;
-        Sparkling Water during a company offsite in Zimbabwe.
-      </>
+      <>Looking for free online courses with certificates for IT training? LearnVern offers web development courses, including PHP, Java, C++, Android, iOS, Testing, Excel &amp; more.</>
     ),
-    extras: (
-      <>
-        <b>Mobile, Frontend, Backend</b>
-      </>
-    ),
-    link: 'https://www.coinbase.com/card/',
+    link: 'https://www.learnvern.com/',
     image: (
       <Image
-        src="https://avatars.githubusercontent.com/u/1885080?s=200&v=4"
-        alt="coinbase logo"
+        src="https://media.licdn.com/dms/image/C4E0BAQGnGu8LuPqxpA/company-logo_200_200/0/1624964126422?e=1698278400&v=beta&t=OB3buokpsr5WOkWuReZD6FDqrZVBYkYd35sLJpDRYBM"
+        alt="learnvern logo"
         layout="fill"
         objectFit="contain"
         priority
@@ -60,25 +51,20 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'University of Toronto | Researcher',
+    title: 'Mconnect Solutions - IT Outsourcing - Web &amp; Mobile App Development Company',
     description: (
-      <>
-        Bridging the gap between human and AI with Maia, a human-like chess
-        engine built atop AlphaZero/Leela. Leveraged advanced Reinforcement
-        Learning algorithms to trade crypto and lost all of his money due to a
-        rounding error.
-      </>
+      <>Need a team to bring your idea to life? No worries. MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. We craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
     ),
     extras: (
       <>
         <b>Machine Learning, Frontend</b>
       </>
     ),
-    link: 'http://csslab.cs.toronto.edu/research/',
+    link: 'https://mconnectsolutions.com/',
     image: (
       <Image
-        src="https://avatars.githubusercontent.com/u/33668513?s=200&v=4"
-        alt="uoft logo"
+        src="https://media.licdn.com/dms/image/C4E0BAQGmUHwYKdA1dw/company-logo_200_200/0/1631965369022?e=1698278400&v=beta&t=HT7X7c1QsUPbECMow83dTKRyruvK_lYUMGZ2NWejPPg"
+        alt="mconnect solutions logo"
         layout="fill"
         objectFit="contain"
         priority
