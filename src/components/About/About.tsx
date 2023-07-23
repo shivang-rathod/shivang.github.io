@@ -18,39 +18,18 @@ export const About: React.FC = () => {
     <div className={styles.container}>
       <div className={styles.about}>
         <h4>About</h4>
+        <div className={styles.website}>{globe} shivangrathod.com</div>
         <p className={styles.description}>
-          Richard Hong is a Chinese-Canadian software engineer, computer scientist
-          and cook. He is currently located in <b>San Francisco, CA</b> and works as a
-          Software Engineer at Meta. He occasionally posts educational software
-          engineering videos on his YouTube channel. In the future, Richard
-          hopes to own and drive the all new{' '}
-          <b>2023 Ford F150&reg; Lightning&trade; Pro</b>.
+          With over 6+ years of experience, shivang is digital marketing professional who creates results-driven solutions and helps businesses thrive and scale with 10x traffic and 2x conversion growth YoY. He loves solving problems and keeping brands ahead in their competitive market.
         </p>
         <div className={styles.stat}>
-          <span>Born: </span>February, 2000 (age{' '}
-          {new Date(Date.now() - new Date(2000, 0o2).getTime()).getFullYear() -
-            1970}{' '}
-          years),{' '}
-          <a
-            href="https://en.wikipedia.org/wiki/Shenyang"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Shenyang, Liaoning
-          </a>
+          <span>Current Ciy: </span>Bangalore, India
         </div>
         <div className={styles.stat}>
-          <span>Height: </span>1.73 m (5 feet 8 and 7/64 inches)*
+          <span>Organizations founded: </span>1.73 m (5 feet 8 and 7/64 inches)*
         </div>
-        <div className={styles.stat}>
-          <span>Education: </span>
-          <a href="https://www.utoronto.ca/" target="_blank" rel="noreferrer">
-            University of Toronto
-          </a>{' '}
-          (2022)
-        </div>
-        <div className={styles.stat}>
-          <span>Net Worth: </span>$72.9 USD (June, 2021)
+		<div className={styles.stat}>
+          <span>Nationality: </span>Indian
         </div>
 
         <div className={styles.border} />

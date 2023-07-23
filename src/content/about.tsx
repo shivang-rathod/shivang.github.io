@@ -16,22 +16,22 @@ type Profile = ComponentProps<typeof SocialProfile>
 export const profiles: Profile[] = [
   {
     label: 'GitHub',
-    url: 'https://www.github.com/H-Richard',
+    url: 'https://github.com/shivang-rathod',
     src: github,
   },
   {
     label: 'YouTube',
-    url: 'https://www.youtube.com/c/h-richard/',
+    url: 'https://www.youtube.com/@shivang_rathod',
     src: youtube,
   },
   {
     label: 'LinkedIn',
-    url: 'https://www.linkedin.com/in/h-richard/',
+    url: 'https://www.linkedin.com/in/shivang-rathod/',
     src: linkedin,
   },
   {
     label: 'Instagram',
-    url: 'https://www.instagram.com/richardandjodi',
+    url: 'https://www.instagram.com/shivang_rathod/',
     src: instagram,
   },
 ]
