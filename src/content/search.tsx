@@ -10,7 +10,14 @@ export const searchResults: Content[] = [
     description: (
       <>Grow omni-channel marketing revenue with Moda. Your all in one, easy-to-use platform for email, SMS, forms & automations.</>
     ),
-    link: 'https://www.getmoda.io/',
+	extras: (
+      <><b>Industry:</b> Edtech<br/>
+      <b>Business Model:</b> D2C<br/>
+      <b>Business Type:</b> Growth, Marketing, Automations<br/>
+      <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
+      <b>CMS/Framework :</b> Webflow, Next JS</>
+    ),
+    link: '#',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C560BAQEIf0FU03HV3w/company-logo_200_200/0/1649664211594?e=1698278400&v=beta&t=qRmsOKhaSv-2inhwPhI-trsu2koXFqTNgsYelDSTR0w"
@@ -26,7 +33,14 @@ export const searchResults: Content[] = [
     description: (
       <>Looking for free online courses with certificates for IT training? LearnVern offers web development courses, including PHP, Java, C++, Android, iOS, Testing, Excel &amp; more.</>
     ),
-    link: 'https://www.learnvern.com/',
+	extras: (
+      <><b>Industry:</b> Edtech<br/>
+      <b>Business Model:</b> B2C<br/>
+      <b>Business Type:</b> Edtch<br/>
+      <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
+      <b>CMS/Framework :</b> Custom Platform build on Laravel</>
+    ),
+    link: '#',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C4E0BAQGnGu8LuPqxpA/company-logo_200_200/0/1624964126422?e=1698278400&v=beta&t=OB3buokpsr5WOkWuReZD6FDqrZVBYkYd35sLJpDRYBM"
@@ -43,11 +57,13 @@ export const searchResults: Content[] = [
       <>MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. They craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
     ),
     extras: (
-      <><b>Industry Type:</b> Agency<br/>
+	  <><b>Industry:</b> eCommerce - Magento, WooCommerce, Shopify, WordPress<br/>
+      <b>Business Model:</b> B2B, B2C<br/>
+      <b>Business Type:</b> Agency<br/>
       <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
-      <b>CMS/Franework :</b> Magento</>
+      <b>CMS/Framework :</b> Magento 2</>
     ),
-    link: 'https://mconnectsolutions.com/',
+    link: '#',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C4E0BAQGmUHwYKdA1dw/company-logo_200_200/0/1631965369022?e=1698278400&v=beta&t=HT7X7c1QsUPbECMow83dTKRyruvK_lYUMGZ2NWejPPg"
@@ -59,154 +75,26 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'University of Toronto | Teaching Assistant',
+    title: 'MageComp - Magento Development Company',
     description: (
-      <>
-        TA&apos;d Computability and Computational Complexity, Discrete Math,
-        Linear Algebra II, and Calculus I.
-      </>
+      <>Magecomp is a leading provider of Magento extensions, services, customization and anything you can think about Magento needs.</>
     ),
-    extras: <b>Computer Science, Math</b>,
-    link: 'https://web.cs.toronto.edu/',
+    extras: (
+	  <><b>Industry:</b> eCommerce - Magento, WordPress<br/>
+      <b>Business Model:</b> SAAS, Agency, B2B, B2C<br/>
+      <b>Business Type:</b> Agency<br/>
+      <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
+      <b>CMS/Framework :</b> Magento 2</>
+    ),
+    link: '#',
     image: (
       <Image
-        src="https://avatars.githubusercontent.com/u/33668513?s=200&v=4"
-        alt="uoft logo"
+        src="https://media.licdn.com/dms/image/C4E0BAQGmUHwYKdA1dw/company-logo_200_200/0/1631965369022?e=1698278400&v=beta&t=HT7X7c1QsUPbECMow83dTKRyruvK_lYUMGZ2NWejPPg"
+        alt="mconnect solutions logo"
         layout="fill"
         objectFit="contain"
         priority
       />
     ),
-  },
-  {
-    title: 'Amazon | Software Development Engineer Intern',
-    description: (
-      <>
-        Worked with AWS CDK, SageMaker, S3, DynamoDB, PrestoDB, Glue, Redshift,
-        Athena, Lambda, Express, Lambda, PySpark, React and TypeScript. Built
-        scalable data pipelines that ingest terabytes of data daily from the
-        Commerce supply chain.
-      </>
-    ),
-    extras: (
-      <>
-        <b>Data, Infra, DevOps, Frontend, Backend</b>
-      </>
-    ),
-    link: 'https://www.amazon.com/',
-    image: (
-      <Image
-        src="https://avatars.githubusercontent.com/u/8594673?s=200&v=4"
-        alt="amazon logo"
-        layout="fill"
-        objectFit="contain"
-        priority
-      />
-    ),
-  },
-  {
-    title: 'NorthBoys | Software Engineer',
-    description: (
-      <>
-        Worked with React, TypeScript, and Redux. Built a performant point of
-        sale application used by the physical retailers of the business.
-      </>
-    ),
-    extras: (
-      <>
-        <b>Frontend</b>
-      </>
-    ),
-    link: 'https://northboysusa.com/',
-  },
-  {
-    title: 'IBM | Software Engineer Intern',
-    description: (
-      <>
-        Worked with Elixir, Ruby, Python, Go, JavaScript, Kubernetes, Helm,
-        Docker, AWS S3, and GraphQL. Achieved a highscore of 200 million (4th)
-        on the Deadpool pinball machine on the second floor, also clapped the
-        other interns in pool and ping pong.
-      </>
-    ),
-    extras: (
-      <>
-        <b>DevOps, Backend, Frontend</b>
-      </>
-    ),
-    link: 'https://skills.network/',
-    image: (
-      <Image
-        src="https://avatars.githubusercontent.com/u/48692442?s=200&v=4"
-        alt="ibm logo"
-        layout="fill"
-        objectFit="contain"
-        priority
-      />
-    ),
-  },
-  {
-    title: 'Google DSC | Project Lead',
-    description: (
-      <>
-        Worked with Flutter, Dart, React, JavaScript, GCP, Go, GraphQL,
-        Postgres, Firebase and Kubernetes.
-      </>
-    ),
-    extras: (
-      <>
-        <b>DevOps, Frontend, Frontend</b>
-      </>
-    ),
-    link: 'https://developers.google.com/community/gdsc',
-  },
-  {
-    title: 'AMACSS | Director of IT',
-    description: (
-      <>
-        Oversaw the Frontend team in development of the organization&apos;s new
-        website with Gatsby.
-      </>
-    ),
-    link: 'https://amacss.org/',
-  },
-  {
-    title: 'Network Re-Engineered Inc | Software Engineer',
-    description: (
-      <>
-        Worked with React Native, TypeScript, Streamchat, Chatkit and Firebase.
-        Led the development of the messaging and calling feature.
-      </>
-    ),
-    extras: <b>Mobile, Backend</b>,
-    link: 'https://www.campusconnect.ca/',
-  },
-  {
-    title: 'Highland Fish and Chips | Fry Cook',
-    description: <>Cooked fish, fries, and mushy peas.</>,
-    extras: <b>British Food</b>,
-    link: 'https://goo.gl/maps/hy1oUTesedd9c61d8/',
-  },
-  {
-    title: 'Via Cibo | Line Cook',
-    description: (
-      <>
-        Cooked pizzas, pastas, salads, paninos, piadinas, risottos, pancakes,
-        and more.
-      </>
-    ),
-    extras: <b>Italian Food</b>,
-    link: 'https://www.viacibo.com/',
-  },
-  {
-    title: 'Roux | Sous Chef',
-    description: (
-      <>
-        Made croissants, beignets, scones, creme brulee, steaks, fish, shrimp,
-        cornbread, fried chicken, ceviche, omelettes, and more.
-      </>
-    ),
-    extras: <b>Creole Food, French Food</b>,
-    link: 'https://goo.gl/maps/GYX2fT4o2yf2DkDr8',
   },
 ]
