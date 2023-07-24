@@ -59,30 +59,6 @@ export const searchResults: Content[] = [
     ),
   },
   {
-    title: 'Shopify | Software Developer Intern',
-    description: (
-      <>
-        Worked with Ruby on Rails, React, TypeScript, MySQL, and GraphQL. Took a
-        lot of snacks (n &gt;= 20) from the office once and nobody found out.
-      </>
-    ),
-    extras: (
-      <>
-        <b>Frontend, Backend</b>
-      </>
-    ),
-    link: 'https://www.shopify.com/plus/solutions/ecommerce-automation/',
-    image: (
-      <Image
-        src="https://avatars.githubusercontent.com/u/8085?s=200&v=4"
-        alt="shopify logo"
-        layout="fill"
-        objectFit="contain"
-        priority
-      />
-    ),
-  },
-  {
     title: 'University of Toronto | Teaching Assistant',
     description: (
       <>
