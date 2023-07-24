@@ -43,9 +43,9 @@ export const searchResults: Content[] = [
       <>MCS Ventures is a one-stop solution you need to develop custom web &amp; mobile apps. They craft visually stunning websites, apps, B2B/B2C portals, Ecommerce, social networks, Ecommerce, and others that amplify your business’ growth.</>
     ),
     extras: (
-      <><b>Industry Type:</b> Agency</>
-      <><b>Serves to:</b> SMBs & Enterprise Solutions</>
-      <><b>CMS/Franework :</b> Magento</>
+      <><b>Industry Type:</b> Agency<br/>
+      <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
+      <b>CMS/Franework :</b> Magento</>
     ),
     link: 'https://mconnectsolutions.com/',
     image: (
