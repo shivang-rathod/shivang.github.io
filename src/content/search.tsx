@@ -17,7 +17,7 @@ export const searchResults: Content[] = [
       <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
       <b>CMS/Framework :</b> Webflow, Next JS</>
     ),
-    link: '#',
+    link: 'https://shivang-rathod.vercel.app/',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C560BAQEIf0FU03HV3w/company-logo_200_200/0/1649664211594?e=1698278400&v=beta&t=qRmsOKhaSv-2inhwPhI-trsu2koXFqTNgsYelDSTR0w"
@@ -40,7 +40,7 @@ export const searchResults: Content[] = [
       <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
       <b>CMS/Framework :</b> Custom Platform build on Laravel</>
     ),
-    link: '#',
+    link: 'https://shivang-rathod.vercel.app/',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C4E0BAQGnGu8LuPqxpA/company-logo_200_200/0/1624964126422?e=1698278400&v=beta&t=OB3buokpsr5WOkWuReZD6FDqrZVBYkYd35sLJpDRYBM"
@@ -63,7 +63,7 @@ export const searchResults: Content[] = [
       <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
       <b>CMS/Framework :</b> Magento 2</>
     ),
-    link: '#',
+    link: 'https://shivang-rathod.vercel.app/',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C4E0BAQGmUHwYKdA1dw/company-logo_200_200/0/1631965369022?e=1698278400&v=beta&t=HT7X7c1QsUPbECMow83dTKRyruvK_lYUMGZ2NWejPPg"
@@ -86,7 +86,7 @@ export const searchResults: Content[] = [
       <b>Serves to:</b> SMBs & Enterprise Solutions<br/>
       <b>CMS/Framework :</b> Magento 2</>
     ),
-    link: '#',
+    link: 'https://shivang-rathod.vercel.app/',
     image: (
       <Image
         src="https://media.licdn.com/dms/image/C4E0BAQGmUHwYKdA1dw/company-logo_200_200/0/1631965369022?e=1698278400&v=beta&t=HT7X7c1QsUPbECMow83dTKRyruvK_lYUMGZ2NWejPPg"
