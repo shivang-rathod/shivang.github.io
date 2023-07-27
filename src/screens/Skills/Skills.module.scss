@@ -9,17 +9,8 @@
   width: 80vw;
   max-width: 1000px;
 
-  font-family: Product Sans, sans-serif;
-  font-weight: 500;
-
-  @include themed-styles {
-    text {
-      fill: themed-color(text-high-contrast) !important;
-    }
-  }
-
   @include mobile {
-    padding: 0 15px;
+    padding: 60px 15px;
     width: 100vw;
   }
 
@@ -30,31 +21,20 @@
   margin: 20px 0;
 }
 
-.list {
-  @include col;
-  flex: 1;
-
+.content {
+  font-family: Product Sans, sans-serif;
+  z-index: 1;
   @include themed-styles {
-    h3 {
-      color: themed-color(text-high-contrast);
-    }
+    color: themed-color(text-high-contrast);
   }
 }
 
-.lists {
-  @include row;
-  gap: 10px;
+.image {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  min-height: 100%;
 
-  @include mobile {
-    flex-direction: column;
-  }
-}
-
-.categories {
-  @include row;
-  justify-content: space-between;
-  gap: 10px;
-
-  overflow-x: scroll;
-  @include hide-scroll;
+  overflow: hidden;
+  opacity: 0.2;
 }
