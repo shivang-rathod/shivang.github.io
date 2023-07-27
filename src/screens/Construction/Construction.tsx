@@ -17,21 +17,5 @@ export const Construction: NextPage = () => {
 		<p>Let's connect and share our stories! 🤝</p>
       </div>
     </div>
-	<div className={styles.container}>
-      <LandingHeader />
-      <div className={styles.landing}>
-        <div className={styles.logo}>
-          <Logo />
-        </div>
-        <SearchBar searchRef={searchRef} searchText={searchText} landing />
-        <div className={styles.buttons}>
-          <LandingButton onClick={onSearchClick} buttonRef={buttonRef}>
-            Google Search
-          </LandingButton>
-          <LandingButton>I&apos;m Feeling Lucky</LandingButton>
-        </div>
-      </div>
-      <LandingFooter />
-    </div>
   )
 }
