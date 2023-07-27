@@ -1,20 +1,24 @@
 @import '/src/styles/base';
 
 .container {
-  width: 652px;
-  @include col;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  flex: 1;
+
+  width: 80vw;
+  max-width: 1000px;
 
   @include mobile {
-    width: 100%;
-    gap: 0px;
+    padding: 60px 15px;
+    width: 100vw;
   }
 
-  gap: 30px;
-  margin-bottom: 40px;
-
-  @include mobile {
-    margin-bottom: 0;
+  @media (max-width: 600px) {
+    padding: 0 10px !important;
   }
+
+  margin: 120px 0;
 }
 
 .content {
