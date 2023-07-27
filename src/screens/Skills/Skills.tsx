@@ -1,21 +1,61 @@
 import { NextPage } from 'next'
-import Image from 'next/image'
+import { useState } from 'react'
+import { CategoryChart, SkillChart, SkillResult } from 'src/components'
+import {
+  backendData,
+  dataMLData,
+  frameworks,
+  frontendData,
+  infraData,
+  languages,
+  services,
+  tools,
+} from 'src/content'
+import { SkillsContext } from 'src/contexts'
 
-import styles from './Construction.module.scss'
+import styles from './Skills.module.scss'
+export const Skills: NextPage = () => {
+  const [skill, setSkill] = useState('React')
 
-export const Construction: NextPage = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.content}>
-        <h3>About Shivang</h3>
-        <p>Page is coming soon! Probably</p>
-		<p>With over 6 years of experience in marketing and creating results-driven solutions, I help businesses thrive and scale with 10x traffic and 2x conversion growth YoY. As an SEO expert, I love solving problems and keeping brands ahead in the competitive market. 🚀</p>
-		<p>Having hands-on experience in different stages of product development, from ideation to implementation and distribution to marketing, my refined skill set enables me to tap into more opportunities and accomplish tasks efficiently. 👨‍💻</p>
-		<p>Long story short. 💭</p>
-		<p>I am a professional digital marketer and passionate SEO specialist based in Bangalore. Currently, I am working with Moda, which helps eCommerce marketers deliver exceptional omnichannel marketing experiences. 🛒</p>
-		<p>In my free time, I enjoy exploring local food and places, reading, traveling, and hanging out with tech nerds. 🕺</p>
-		<p>Let's connect and share our stories! 🤝</p>
+    <SkillsContext.Provider value={{ skill, setSkill }}>
+      <div className={styles.container}>
+        <div className={styles.categories}>
+          <CategoryChart name="Frontend" data={frontendData} />
+          <CategoryChart name="Backend" data={backendData} />
+          <CategoryChart name="Infra" data={infraData} />
+          <CategoryChart name="Data/ML" data={dataMLData} />
+        </div>
+        <SkillChart />
+        <div className={styles.lists}>
+          <div className={styles.list}>
+            <h3>Languages</h3>
+            {languages.map((skill) => (
+              <SkillResult {...skill} key={skill.name} />
+            ))}
+          </div>
+          <div className={styles.list}>
+            <h3>Frameworks</h3>
+            {frameworks.map((skill) => (
+              <SkillResult {...skill} key={skill.name} />
+            ))}
+          </div>
+        </div>
+        <div className={styles.lists}>
+          <div className={styles.list}>
+            <h3>Cloud Services</h3>
+            {services.map((skill) => (
+              <SkillResult {...skill} key={skill.name} />
+            ))}
+          </div>
+          <div className={styles.list}>
+            <h3>Tools</h3>
+            {tools.map((skill) => (
+              <SkillResult {...skill} key={skill.name} />
+            ))}
+          </div>
+        </div>
       </div>
-    </div>
+    </SkillsContext.Provider>
   )
 }
