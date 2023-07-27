@@ -9,9 +9,6 @@
   width: 80vw;
   max-width: 1000px;
 
-  font-family: Product Sans, sans-serif;
-  font-weight: 500;
-
   @include themed-styles {
     text {
       fill: themed-color(text-high-contrast) !important;
