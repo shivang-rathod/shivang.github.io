@@ -1,8 +1,33 @@
 @import '/src/styles/base';
 
 .container {
-  @include row;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
   flex: 1;
+
+  width: 80vw;
+  max-width: 1000px;
+
+  font-family: Product Sans, sans-serif;
+  font-weight: 500;
+
+  @include themed-styles {
+    text {
+      fill: themed-color(text-high-contrast) !important;
+    }
+  }
+
+  @include mobile {
+    padding: 0 15px;
+    width: 100vw;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0 10px !important;
+  }
+
+  margin: 20px 0;
 }
 
 .content {
