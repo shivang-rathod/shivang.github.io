@@ -11,7 +11,6 @@ export const skills = [
     name: 'TypeScript',
     type: 'LANGUAGE',
     category: 'FRONTEND',
-    history: [0, 0, 8, 20, 34, 55, 58, 70, 85, 91, 89, 93, 95, 93],
   },
   {
     symbol: 'JS',
